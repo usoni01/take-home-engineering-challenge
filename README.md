@@ -54,7 +54,7 @@ Your REST service should make it possible to:
 
 - Add a new food truck.
 - Retrieve a food truck based on the `locationid` field.
-- get all food trucks for a given `block`
+- Get all food trucks for a given `block`.
 
 
 Good luck! Please send a link to your solution on Github back to us at least 12 hours before your interview so we can review it before we speak.
