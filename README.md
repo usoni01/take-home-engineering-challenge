@@ -42,7 +42,7 @@ San Francisco's food truck open dataset is [located here](https://data.sfgov.org
 
 ### Programming Language 
 
-You are welcome to use any languagem frameworks or libraries you like. 
+You are welcome to use any language frameworks or libraries you like. 
 
 ### Data Storage
 
