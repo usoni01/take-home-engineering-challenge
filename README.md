@@ -36,7 +36,7 @@ You can write a simple REST service that returns a set of food trucks (our team 
 
 ### Expected Data Size
 
-Would be great to open this solution up for other US cities so consider supporting large datasets (ie millions in total foodtruck records).
+Would be great to open this solution up for other US cities so consider supporting large datasets. You should expect datasets in the millions.
 
 ### Data Schema
 
