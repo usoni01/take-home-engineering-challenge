@@ -52,7 +52,7 @@ You don’t need to use a database to store food truck data. Instead, your REST 
 
 Your REST service should make it possible to:
 
-- add a new food truck
+- Add a new food truck.
 - retrieve a food truck based on the `locationid` field
 - get all food trucks for a given `block`
 
