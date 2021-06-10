@@ -1,12 +1,12 @@
 # Take Home Engineering Challenge
 
-We are a very practical team at Microsoft and this extends to the way that we work with you to find out if this team is a great fit for you. We want you to come away with a great understanding of the work that we actually do day to day and what it is like to work with us.
+Commercial Software Engineering is a very practical team at Microsoft and this extends to the way that we work with you to find out if this team is a great fit for you. We want you to come away with a great understanding of the work that we actually do day to day and what it is like to work with us.
 
 So instead of coding at a whiteboard with someone watching over your shoulder under high pressure, which is not a thing we often do, we instead discuss code that you have written previously when we meet.
 
 ## Guidelines
 
--   This is meant to be an assignment that you spend approximately three hours of dedicated, focused work. Do not feel like you need to overengineer the solution with dozens of hours to impress us. Be biased toward quality over quantity.
+-   This is meant to be an assignment that you spend approximately three hours of dedicated, focused work. Do not feel like you need to overengineer the solution with dozens of hours to impress us. Be biased toward quality over quantity, simplicity over complexity.
 
 -   Think of this like an open source project. Create a repo on Github, use git for source control, and use README.md to document what you built for the newcomer to your project.
 
@@ -34,7 +34,7 @@ You can write a simple REST service that returns a set of food trucks (our team 
 
 ### Expected Data Size
 
-It would be great to open this solution up for other US cities so consider supporting large datasets. You should expect datasets in the millions.
+Design the solution assuming that the dataset includes data from many cities with millions of records.
 
 ### Data Schema
 
@@ -56,5 +56,8 @@ Your REST service should make it possible to:
 - Retrieve a food truck based on the `locationid` field.
 - Get all food trucks for a given `block`.
 
+### Testing
+
+You are welcome to use your unit testing framework of choice to validate the in-memory data store and service functionality.
 
 Good luck! Please send a link to your solution on Github back to us at least 12 hours before your interview so we can review it before we speak.
