@@ -46,7 +46,7 @@ You are welcome to use any language frameworks or libraries you like.
 
 ### Data Storage
 
-You don’t need to use a database to store food truck data. Instead, your REST Service should use language native data structures (ie Set, List, Map, Stack, Heap, etc) to implement the in-memory data store. Please avoid using query and/or ORM frameworks like Linq, Hibernate, etc.
+You don’t need to use a database to store food truck data. Instead, your REST Service should use language native data structures (ie _Set, List, Map, Stack, Heap, etc_) to implement the in-memory data store. Please avoid using query and/or ORM frameworks(_ie Linq, Hibernate_).
 
 ### Service Requirements
 
