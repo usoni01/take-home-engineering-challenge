@@ -14,13 +14,17 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class FoodTruckService {
-
+    /* maps are assigned as global so they are accessable through all methods in this class (instead of passing them through variable) */
     public static Map<String, String> locationMap = new HashMap<>();
     public static Map<String, List<String>> blockMap = new HashMap<>();
+    
+    //this function can initially be part of the "set up" method to call it once when running the project instead od having to do it again 
+    //(only because we are storing in memory instead of actual DB) that approach would have been different.
+    
     public static void createMaps() throws IOException {
         //Reads in the input csv file
         CSVReader reader = new CSVReader(new FileReader("Mobile_Food_Facility_Permit.csv"));
-        String [] nextLine;
+        String [] nextLine; //gets each line of the csv file
         int lineNumber = 0;
         while ((nextLine = reader.readNext()) != null) {
             lineNumber++;
@@ -54,6 +58,12 @@ public class FoodTruckService {
     }
 
     public static void addFoodTruck(String locationId, String input){
+        //to keep it simple, I am adding the input to the locationMap because locationID is the key for this map
+        //ideally the blockMap would also get updated since it consists of blockId. 
+        //while we are only storing this in memory and not on actual database I kept this simple.
+        //Response could be simple 200 if we want to show it as successfull
+        //unless locationId is auto generated(and acts like primery key for the table, the we would have to return the locationId
+        //so that the user knows that it was successfully added, as well as keep track of what it was added as.
            try {
                locationMap.put(locationId, input);
                System.out.println("Added food truck " + locationId + locationMap.get(locationId));
