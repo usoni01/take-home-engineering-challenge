@@ -36,7 +36,8 @@ Assumptions: in CSV, Type Truck = Food truck and do not add anything else that i
     /We sending the request, ran into the thought whether or not the request will be giving us all the fields required to add
     //to the CSV file? will it get stored? as we are not making any connection to the Database.
     -- Is the locationID auto generated? or the user is passing it in when hitting add endpoint?
-    -- For the simplicity of the project, I am making the assumption that the use is passing the locationID
+    -- In an ideal world, it would be better to have a request body where all the fields are entered through json, and parse the json to extract those fields.
+    -- For the simplicity of the project, I am making the assumption that the use is passing the locationID and rest of the information as a string
     -- To show that it has been added, successful message will be shown to the user
     -- I will be updating the maps I built for location and block.
 
