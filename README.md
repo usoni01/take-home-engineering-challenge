@@ -68,7 +68,7 @@ With short time to build the solution and for the simplicity of the project, som
   - The type specified as "Truck" was the actual food truck. Only those were being considered for the solution.
   - The locationId was NOT auto generated for addFoodTruck call.
   - Only few of the main fields were shown on the result such as: LocationId, Name, Address, Block and Food Menu
-  - Project was made as Maven and pox.xml file was added to add dependency for the codes
+  - Project was made as Maven and pom.xml file was added to add dependency for the codes
   
  The solution is consisting of 3 main java class: FoodTruckApplication, FoodTruckController and FoodTruckService.
  
