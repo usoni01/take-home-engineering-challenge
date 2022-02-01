@@ -61,3 +61,14 @@ Your REST service should make it possible to:
 You are welcome to use your unit testing framework of choice to validate the in-memory data store and service functionality.
 
 Good luck! Please send a link to your solution on Github back to us at least 12 hours before your interview so we can review it before we speak.
+
+### User Solution
+
+With short time to build the solution and for the simplicity of the project, some assumptions were made:
+  - The type specified as "Truck" was the actual food truck. Only those were being considered for the solution.
+  - The locationId was NOT auto generated for addFoodTruck call.
+  - Only few of the main fields were shown on the result such as: LocationId, Name, Address, Block and Food Menu
+  - Project was made as Maven and pox.xml file was added to add dependency for the codes
+  
+ The solution is consisting of 3 main java class: FoodTruckApplication, FoodTruckController and FoodTruckService.
+ 
